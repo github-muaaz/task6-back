@@ -1,7 +1,7 @@
 
 const { Server } = require('socket.io');
 const io = new Server({
-    cors: "http://localhost:5173/"
+    cors: "https://itransition-task6-muaaz.netlify.app"
 })
 io.on('connection', function (socket) {
 
